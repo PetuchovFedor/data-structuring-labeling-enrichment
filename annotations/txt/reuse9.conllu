@@ -1,0 +1,697 @@
+# newdoc id = reuse9
+# sent_id = reuse9-1
+# text = Прежде чем рассуждать на эту нравственно-философскую тему, необходимо сформулировать такие важные в жизни любого человека понятия, как честь и бесчестие.
+1	Прежде	прежде	ADV	_	Degree=Pos	3	mark	_	_
+2	чем	чем	SCONJ	_	_	1	fixed	_	_
+3	рассуждать	рассуждать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	advcl	_	_
+4	на	на	ADP	_	_	9	case	_	_
+5	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	9	det	_	_
+6	нравственно	нравственно	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+7	-	-	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+8	философскую	философский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	тему	тема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	0	ROOT	_	_
+12	сформулировать	сформулировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	csubj	_	_
+13	такие	такой	DET	_	Animacy=Inan|Case=Acc|Number=Plur	14	det	_	_
+14	важные	важный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	acl	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+17	любого	любой	DET	_	Case=Gen|Gender=Masc|Number=Sing	18	det	_	_
+18	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	понятия	понятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	как	как	SCONJ	_	_	22	case	_	_
+22	честь	честь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	obl	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	бесчестие	бесчестие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = reuse9-2
+# text = Что же такое честь?
+1	Что	что	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	ROOT	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	4	det	_	_
+4	честь	честь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = reuse9-3
+# text = Вспоминаю почти забытую легенду о том, что прародительница рода человеческого Ева была не первой женой Адама.
+1	Вспоминаю	вспоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	почти	почти	ADV	_	Degree=Pos	3	advmod	_	_
+3	забытую	забытый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	легенду	легенда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	том	том	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	16	punct	_	_
+8	что	что	SCONJ	_	_	16	mark	_	_
+9	прародительница	прародительница	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+10	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	человеческого	человеческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+12	Ева	ева	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	appos	_	NER=B-PER
+13	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	_
+14	не	не	PART	_	Polarity=Neg	15	advmod	_	_
+15	первой	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	женой	жена	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	6	acl	_	_
+17	Адама	адам	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|NER=B-PER
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = reuse9-4
+# text = А случилось это так.
+1	А	а	CCONJ	_	_	2	cc	_	_
+2	случилось	случиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+4	так	так	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = reuse9-5
+# text = В начале начал самую первую женщину Творец создал из огня.
+1	В	в	ADP	_	_	2	case	_	_
+2	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	начал	начать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	самую	самую	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	первую	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	женщину	женщина	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+7	Творец	творец	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	NER=B-PER
+8	создал	создать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	огня	огонь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = reuse9-6
+# text = Красавица Лилит стала женой Адама.
+1	Красавица	красавица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	Лилит	лилит	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	NER=B-PER
+3	стала	стать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	женой	жена	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	3	xcomp	_	_
+5	Адама	адам	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|NER=B-PER
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = reuse9-7
+# text = Но запах глины, из которой был сотворён Адам, чужеродный для Лилит запах тяготил её, и супруг стал ей неприятен.
+1	Но	но	CCONJ	_	_	2	cc	_	_
+2	запах	запах	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	глины	глина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	которой	которой	PRON	_	Case=Gen|Gender=Fem|Number=Sing	15	obl	_	_
+7	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+8	сотворён	сотворён	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+9	Адам	адам	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No|NER=B-PER
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	чужеродный	чужеродный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	Лилит	лилит	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	NER=B-PER
+14	запах	запах	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	тяготил	тяготил	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+16	её	её	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=Third	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	супруг	супруг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	стал	стать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	_	_
+21	ей	ей	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=Third	20	iobj	_	_
+22	неприятен	неприятный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	20	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = reuse9-8
+# text = Изо дня в день разгоралась любовь Адама к жене, но первую на земле семью непрерывно сотрясали конфликты.
+1	Изо	из	ADP	_	_	2	case	_	_
+2	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+5	разгоралась	разгоралась	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+6	любовь	любовь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+7	Адама	адам	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	NER=B-PER
+8	к	к	ADP	_	_	9	case	_	_
+9	жене	жена	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	17	punct	_	_
+11	но	но	CCONJ	_	_	17	cc	_	_
+12	первую	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	земле	земля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+15	семью	семья	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+16	непрерывно	непрерывно	ADV	_	Degree=Pos	17	advmod	_	_
+17	сотрясали	сотрясать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+18	конфликты	конфликт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = reuse9-9
+# text = Огненная Лилит тянулась к небу, к свободе.
+1	Огненная	огненный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	Лилит	лилит	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	NER=B-PER
+3	тянулась	тянуться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	небу	небо	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	к	к	ADP	_	_	8	case	_	_
+8	свободе	свобода	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = reuse9-10
+# text = И однажды она встретила на своём пути существо, сотворённое, как и она, из огня.
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	однажды	однажды	ADV	_	Degree=Pos	4	advmod	_	_
+3	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=Third	4	nsubj	_	_
+4	встретила	встретить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	своём	своём	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	obl	_	_
+7	пути	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	существо	существо	NOUN	_	Animacy=Anim|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	сотворённое	сотворённое	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	как	как	SCONJ	_	_	14	case	_	_
+13	и	и	PART	_	_	14	advmod	_	_
+14	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=Third	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	из	из	ADP	_	_	17	case	_	_
+17	огня	огонь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = reuse9-11
+# text = И пусть оказался им злой гений, Лилит сбежала к возлюбленному.
+1	И	и	CCONJ	_	_	3	cc	_	_
+2	пусть	пусть	PART	_	_	3	advmod	_	_
+3	оказался	оказаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+4	им	им	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=Third	3	xcomp	_	_
+5	злой	злой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	гений	гений	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	Лилит	лилит	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	NER=B-PER
+9	сбежала	сбежать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+10	к	к	ADP	_	_	11	case	_	_
+11	возлюбленному	возлюбленному	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = reuse9-12
+# text = Безысходное отчаяние обрушилось на Адама.
+1	Безысходное	безысходный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	отчаяние	отчаяние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	обрушилось	обрушиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	Адама	адам	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|NER=B-LOC
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = reuse9-13
+# text = Это гнетущее состояние и было впервые явленным миру чувством ревности.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	гнетущее	гнетущий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	состояние	состояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	ROOT	_	_
+4	и	и	CCONJ	_	_	6	cc	_	_
+5	было	было	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+6	впервые	впервые	ADV	_	Degree=Pos	3	conj	_	_
+7	явленным	явленный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	миру	мир	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+9	чувством	чувство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+10	ревности	ревность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = reuse9-14
+# text = Что мы получаем от науки Что мы получаем от науки – вот вопрос, над которым рассуждает автор.
+1	Что	что	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=First	3	nsubj	_	_
+3	получаем	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	от	от	ADP	_	_	5	case	_	_
+5	науки	наука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+6	Что	что	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+7	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=First	8	nsubj	_	_
+8	получаем	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	3	xcomp	_	_
+9	от	от	ADP	_	_	10	case	_	_
+10	науки	наука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+11	–	–	PUNCT	_	_	13	punct	_	_
+12	вот	вот	PART	_	_	13	advmod	_	_
+13	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	над	над	ADP	_	_	16	case	_	_
+16	которым	которым	PRON	_	Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_
+17	рассуждает	рассуждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+18	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = reuse9-15
+# text = По высказыванию известного писателя Н. Г. Чернышевского, данная проблема является общественно значимой: «В науке хранятся плоды опытности и размышлений человеческого рода, и главнейшим образом на основании науки улучшаются понятия, а потом нравы и жизнь людей».
+1	По	по	ADP	_	_	2	case	_	_
+2	высказыванию	высказывание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	parataxis	_	_
+3	известного	известный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	писателя	писатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	Н.	н.	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	_	_	SPACE	_	_	5	dep	_	SpaceAfter=No
+7	Г.	г.	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+8	_	_	SPACE	_	_	7	dep	_	SpaceAfter=No
+9	Чернышевского	чернышевский	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	данная	данная	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	проблема	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+14	общественно	общественно	ADV	_	Degree=Pos	15	advmod	_	_
+15	значимой	значимый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	xcomp	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	20	punct	_	_
+17	«	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+18	В	в	ADP	_	_	19	case	_	_
+19	науке	наука	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+20	хранятся	храниться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid	13	parataxis	_	_
+21	плоды	плод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+22	опытности	опытность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	размышлений	размышление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	22	conj	_	_
+25	человеческого	человеческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	34	punct	_	_
+28	и	и	CCONJ	_	_	34	cc	_	_
+29	главнейшим	главный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	34	obl	_	_
+31	на	на	ADP	_	_	32	case	_	_
+32	основании	основание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	34	obl	_	_
+33	науки	наука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+34	улучшаются	улучшаются	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Pass	20	conj	_	_
+35	понятия	понятие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	34	nsubj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	39	punct	_	_
+37	а	а	CCONJ	_	_	39	cc	_	_
+38	потом	потом	ADV	_	Degree=Pos	39	advmod	_	_
+39	нравы	нравы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	conj	_	_
+40	и	и	CCONJ	_	_	41	cc	_	_
+41	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	conj	_	_
+42	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	41	nmod	_	SpaceAfter=No
+43	»	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = reuse9-16
+# text = В. Харченко считает, что цель изучения наук – это есть не что иное, как «формирование в нас личности, то есть совокупности таких идей и убеждений, которые бы составили собой неотъемлемую принадлежность нашего «я».
+1	В.	в.	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Харченко	харченко	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	NER=B-PER
+3	считает	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	11	punct	_	_
+5	что	что	SCONJ	_	_	11	mark	_	_
+6	цель	цель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+7	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	наук	наука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	–	–	PUNCT	_	_	6	punct	_	_
+10	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	expl	_	_
+11	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+12	не	не	PART	_	Polarity=Neg	13	advmod	_	_
+13	что	что	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+14	иное	иное	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	как	как	SCONJ	_	_	18	case	_	_
+17	«	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	формирование	формирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	obl	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	нас	нас	PRON	_	Animacy=Inan|Case=Acc|Number=Plur|Person=First	18	nmod	_	_
+21	личности	личность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23	то	то	SCONJ	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	mark	_	_
+24	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	23	fixed	_	_
+25	совокупности	совокупность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	parataxis	_	_
+26	таких	такой	DET	_	Case=Gen|Number=Plur	27	det	_	_
+27	идей	идея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	убеждений	убеждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	27	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	_
+31	которые	которые	PRON	_	Case=Nom|Number=Plur	33	nsubj	_	_
+32	бы	бы	AUX	_	Mood=Cnd	33	aux	_	_
+33	составили	составить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	29	acl:relcl	_	_
+34	собой	себя	PRON	_	Case=Ins	33	fixed	_	_
+35	неотъемлемую	неотъемлемый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	принадлежность	принадлежность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
+37	нашего	наш	DET	_	Case=Gen|Gender=Masc|Number=Sing	39	det	_	_
+38	«	"	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	я	я	PRON	_	Case=Nom|Number=Sing|Person=First	36	nmod	_	SpaceAfter=No
+40	»	"	PUNCT	_	_	39	punct	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = reuse9-17
+# text = Я разделяю точку зрения автора.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=First	2	nsubj	_	_
+2	разделяю	разделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+3	точку	точка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	compound	_	_
+5	автора	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = reuse9-18
+# text = Но считаю, что некоторые ученые, занимаясь наукой, преследуют материальную выгоду, для других – наука доставляет большое духовное удовлетворение.
+1	Но	но	CCONJ	_	_	2	cc	_	_
+2	считаю	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	11	punct	_	_
+4	что	что	SCONJ	_	_	11	mark	_	_
+5	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	6	det	_	_
+6	ученые	учёный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	занимаясь	заниматься	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	11	advcl	_	_
+9	наукой	наука	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	iobj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	преследуют	преследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+12	материальную	материальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	выгоду	выгода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	19	punct	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	других	других	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	obl	_	_
+17	–	–	PUNCT	_	_	16	punct	_	_
+18	наука	наука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+19	доставляет	доставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+20	большое	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+21	духовное	духовный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	удовлетворение	удовлетворение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = reuse9-19
+# text = Труд был для него святыня, купель, радость, в которой исцелялись язвы.
+1	Труд	труд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	NER=B-PER
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	него	него	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=Third	5	nmod	_	_
+5	святыня	святыня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	купель	купель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	радость	радость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	которой	которой	PRON	_	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+13	исцелялись	исцелялись	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	9	acl:relcl	_	_
+14	язвы	язвы	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = reuse9-20
+# text = Сам Пушкин говорил о своём труде, о вдохновении:От многих из людей можно услышать фразу: «Я одинок».
+1	Сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	Пушкин	пушкин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	NER=B-PER
+3	говорил	говорить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	своём	своём	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	obl	_	_
+6	труде	труд	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	вдохновении	вдохновение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	15	punct	_	SpaceAfter=No
+11	От	от	ADP	_	_	12	case	_	_
+12	многих	многих	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+13	из	из	ADP	_	_	14	case	_	_
+14	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	можно	можно	ADV	_	Degree=Pos	9	parataxis	_	_
+16	услышать	услышать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	csubj	_	_
+17	фразу	фраза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+18	:	:	PUNCT	_	_	21	punct	_	_
+19	«	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+20	Я	я	PRON	_	Case=Nom|Number=Sing|Person=First	21	nsubj	_	_
+21	одинок	одинокий	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	17	parataxis	_	SpaceAfter=No
+22	»	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = reuse9-21
+# text = У каждого человека своё понимание одиночества.
+1	У	у	ADP	_	_	3	case	_	_
+2	каждого	каждый	DET	_	Case=Gen|Gender=Masc|Number=Sing	3	det	_	_
+3	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+4	своё	своё	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+5	понимание	понимание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	одиночества	одиночество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = reuse9-22
+# text = Некоторые люди испытывают чувство одиночества, когда рядом нет близких друзей, когда чувствуют непонимание со стороны окружающих.
+1	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur	2	det	_	_
+2	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	испытывают	испытывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	чувство	чувство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	одиночества	одиночество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	когда	когда	SCONJ	_	_	9	mark	_	_
+8	рядом	рядом	ADV	_	Degree=Pos	9	advmod	_	_
+9	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+10	близких	близкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	друзей	друг	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	когда	когда	SCONJ	_	_	14	mark	_	_
+14	чувствуют	чувствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
+15	непонимание	непонимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	со	со	ADP	_	_	18	case	_	_
+17	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	fixed	_	_
+18	окружающих	окружающих	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = reuse9-23
+# text = Другие, одиноки не испытывая любви.
+1	Другие	другие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	одиноки	одиноки	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+4	не	не	PART	_	Polarity=Neg	5	advmod	_	_
+5	испытывая	испытывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	ROOT	_	_
+6	любви	любовь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = reuse9-24
+# text = Причин для одиночества может быть множество.
+1	Причин	причина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nsubj	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	одиночества	одиночество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+5	быть	быть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = reuse9-25
+# text = И. Ильин в своей статье уделяет внимание сложной проблеме одиночества.
+1	И.	и.	ADV	_	Degree=Pos	6	advmod	_	_
+2	Ильин	ильин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	своей	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing	5	det	_	_
+5	статье	статья	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+6	уделяет	уделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+7	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	сложной	сложный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	проблеме	проблема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	iobj	_	_
+10	одиночества	одиночество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = reuse9-26
+# text = «Возможно ли избавиться от одиночества?» — задается вопросом автор.
+1	«	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	0	ROOT	_	_
+3	ли	ли	PART	_	_	2	advmod	_	_
+4	избавиться	избавиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	csubj	_	_
+5	от	от	ADP	_	_	6	case	_	_
+6	одиночества	одиночество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	»	"	PUNCT	_	_	2	punct	_	_
+9	—	—	PUNCT	_	_	10	punct	_	_
+10	задается	задаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid	2	parataxis	_	_
+11	вопросом	вопрос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+12	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = reuse9-27
+# text = Человек–существо социальное.
+1	Человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+2	–	–	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	существо	существо	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	0	ROOT	_	_
+4	социальное	социальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = reuse9-28
+# text = Большую часть времени он проводит среди людей.
+1	Большую	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+3	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=Third	5	nsubj	_	_
+5	проводит	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+6	среди	среди	ADP	_	_	7	case	_	_
+7	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = reuse9-29
+# text = Но, общаясь со многими людьми на работе, в школе, дома, можно чувствовать себя одиноким.
+1	Но	но	CCONJ	_	_	15	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	общаясь	общаться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	15	advcl	_	_
+4	со	со	ADP	_	_	6	case	_	_
+5	многими	многими	NUM	_	Case=Ins	6	amod	_	_
+6	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	школе	школа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	дома	дома	ADV	_	Degree=Pos	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	3	punct	_	_
+15	можно	можно	ADV	_	Degree=Pos	0	ROOT	_	_
+16	чувствовать	чувствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	csubj	_	_
+17	себя	себя	PRON	_	Case=Acc	16	obj	_	_
+18	одиноким	одинокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = reuse9-30
+# text = По сути, человек уже рождается на свет «отшельником».
+1	По	по	ADP	_	_	2	case	_	_
+2	сути	суть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	уже	уже	ADV	_	Degree=Pos	6	advmod	_	_
+6	рождается	рождаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	свет	свет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+9	«	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	отшельником	отшельник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No
+11	»	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = reuse9-31
+# text = Автор говорит: «Одиноким приходит человек в эту жизнь с первым вырвавшимся криком страдания, требующим глотка воздуха, и одиноким покидает он тот мир с последним вдохом, стараясь произнести это слово».
+1	Автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	6	punct	_	_
+4	«	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+5	Одиноким	одинокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	iobj	_	_
+6	приходит	приходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+7	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	10	det	_	_
+10	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+11	с	с	ADP	_	_	14	case	_	_
+12	первым	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+13	вырвавшимся	вырвавшимся	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+14	криком	крик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+15	страдания	страдание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	требующим	требовать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	acl	_	_
+18	глотка	глотка	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+19	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21	и	и	CCONJ	_	_	23	cc	_	_
+22	одиноким	одинокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	23	iobj	_	_
+23	покидает	покидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+24	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=Third	23	nsubj	_	_
+25	тот	тот	DET	_	Case=Acc|Gender=Masc|Number=Sing	26	det	_	_
+26	мир	мир	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+27	с	с	ADP	_	_	29	case	_	_
+28	последним	последний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	вдохом	вдох	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	стараясь	стараться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	23	advcl	_	_
+32	произнести	произнести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	31	xcomp	_	_
+33	это	это	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	34	det	_	_
+34	слово	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	obj	_	SpaceAfter=No
+35	»	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = reuse9-32
+# text = И. Ильин считает, что одиночество — пожизненное «бремя» человека.
+1	И.	и.	ADV	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	advmod	_	_
+2	Ильин	ильин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	NER=B-PER
+3	считает	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	10	punct	_	_
+5	что	что	SCONJ	_	_	10	mark	_	_
+6	одиночество	одиночество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+7	—	—	PUNCT	_	_	6	punct	_	_
+8	пожизненное	пожизненный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+9	«	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	бремя	бремя	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	ccomp	_	SpaceAfter=No
+11	»	"	PUNCT	_	_	10	punct	_	_
+12	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = reuse9-33
+# text = Но, с другой стороны, только в одиночестве человек может познать себя.
+1	Но	но	CCONJ	_	_	11	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	с	с	ADP	_	_	5	case	_	_
+4	другой	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	только	только	PART	_	_	9	advmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	одиночестве	одиночество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+10	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+12	познать	познать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	себя	себя	PRON	_	Case=Acc	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = reuse9-34
+# text = Автор убежден, что человек способен познать чувства другого и помочь ему тогда, когда сам это прочувствует.
+1	Автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	убежден	убеждённый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	0	ROOT	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	что	что	SCONJ	_	_	6	mark	_	_
+5	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	2	ccomp	_	_
+7	познать	познать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	чувства	чувство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
+9	другого	другого	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	помочь	помочь	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	conj	_	_
+12	ему	ему	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=Third	11	iobj	_	_
+13	тогда	тогда	ADV	_	Degree=Pos	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	18	punct	_	_
+15	когда	когда	ADV	_	Degree=Pos	18	mark	_	_
+16	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	acl	_	_
+17	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+18	прочувствует	прочувствовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Act	13	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = reuse9-35
+# text = Я полностью согласна с позицией автора в том, что никто с точностью не сможет понять, что ты чувствуешь, пока сам не перенесешь такие же переживания через свою душу.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=First	3	nsubj	_	_
+2	полностью	полностью	ADV	_	Degree=Pos	3	advmod	_	_
+3	согласна	согласный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|StyleVariant=Short	0	ROOT	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	позицией	позиция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+6	автора	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	том	том	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	15	punct	_	_
+10	что	что	SCONJ	_	_	15	mark	_	_
+11	никто	никто	PRON	_	Case=Nom	15	nsubj	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	точностью	точность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
+14	не	не	PART	_	Polarity=Neg	15	advmod	_	_
+15	сможет	смочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Act	8	acl	_	_
+16	понять	понять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	что	что	SCONJ	_	_	20	obj	_	_
+19	ты	ты	PRON	_	Case=Nom|Number=Sing|Person=Second	20	nsubj	_	_
+20	чувствуешь	чувствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Second|Tense=Pres|VerbForm=Fin|Voice=Act	16	ccomp	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	25	punct	_	_
+22	пока	пока	SCONJ	_	_	25	mark	_	_
+23	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	acl	_	_
+24	не	не	PART	_	Polarity=Neg	25	advmod	_	_
+25	перенесешь	перенести	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=Second|Tense=Fut|VerbForm=Fin|Voice=Act	20	advcl	_	_
+26	такие	такой	DET	_	Animacy=Inan|Case=Acc|Number=Plur	28	det	_	_
+27	же	же	PART	_	_	26	advmod	_	_
+28	переживания	переживание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	25	obj	_	_
+29	через	через	ADP	_	_	31	case	_	_
+30	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	31	det	_	_
+31	душу	душа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = reuse9-36
+# text = Каждый человек на протяжении всей своей жизни неоднократно сталкивается с ситуацией, в которой перед ним стоит непростой выбор: следовать зову сердца или здравому смыслу.
+1	Каждый	каждый	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+5	всей	весь	DET	_	Case=Gen|Gender=Fem|Number=Sing	7	det	_	_
+6	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	7	det	_	_
+7	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+8	неоднократно	неоднократно	ADV	_	Degree=Pos	9	advmod	_	_
+9	сталкивается	сталкиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	ситуацией	ситуация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	17	punct	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	которой	которой	PRON	_	Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_
+15	перед	перед	ADP	_	_	16	case	_	_
+16	ним	ним	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=Third	17	obl	_	_
+17	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+18	непростой	непростой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	выбор	выбор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	21	punct	_	_
+21	следовать	следовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	parataxis	_	_
+22	зову	зов	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	21	iobj	_	_
+23	сердца	сердце	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+24	или	или	CCONJ	_	_	26	cc	_	_
+25	здравому	здравый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	смыслу	смысл	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+28	_	_	SPACE	_	_	27	dep	_	SpaceAfter=No

@@ -1,0 +1,867 @@
+# newdoc id = fpr0
+# sent_id = fpr0-1
+# text = Есть такая пословица: "Береги платье снову, а честь смолоду".
+1	Есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	3	det	_	_
+3	пословица	пословица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	6	punct	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Береги	беречь	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=Second|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+7	платье	платье	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	obj	_	_
+8	снову	снову	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	а	а	CCONJ	_	_	11	cc	_	_
+11	честь	честь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
+12	смолоду	смолоду	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = fpr0-2
+# text = Смысл этой пословицы заключается в том, что нужно беречь свою честь, начиная с ранних лет.
+1	Смысл	смысл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	3	det	_	_
+3	пословицы	пословица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	заключается	заключаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	том	том	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	что	что	SCONJ	_	_	9	mark	_	_
+9	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	6	acl	_	_
+10	беречь	беречь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	csubj	_	_
+11	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	12	det	_	_
+12	честь	честь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	начиная	начинать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+15	с	с	ADP	_	_	17	case	_	_
+16	ранних	ранний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = fpr0-3
+# text = Но, почему так важно сохранить свою честь?
+1	Но	но	CCONJ	_	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	почему	почему	ADV	_	Degree=Pos	5	advmod	_	_
+4	так	так	ADV	_	Degree=Pos	5	advmod	_	_
+5	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	0	ROOT	_	_
+6	сохранить	сохранить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	csubj	_	_
+7	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	8	det	_	_
+8	честь	честь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = fpr0-4
+# text = Честь - это один из важнейших показателей человеческого характера.
+1	Честь	честь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	-	-	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	один	один	NUM	_	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+5	из	из	ADP	_	_	7	case	_	_
+6	важнейших	важный	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	7	amod	_	_
+7	показателей	показатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+8	человеческого	человеческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	характера	характер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = fpr0-5
+# text = Как известно, о человеке прежде всего судят по его характеру.
+1	Как	как	SCONJ	_	_	2	mark	_	_
+2	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	человеке	человек	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+6	прежде	прежде	ADV	_	_	8	advmod	_	_
+7	всего	всего	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	fixed	_	_
+8	судят	судить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+9	по	по	ADP	_	_	11	case	_	_
+10	его	он	DET	_	_	11	det	_	_
+11	характеру	характер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = fpr0-6
+# text = Для некоторых людей честь бывает дороже их собственной жизни.
+1	Для	Для	ADP	_	_	3	case	_	_
+2	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	3	det	_	_
+3	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+4	честь	честь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	бывает	бывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+6	дороже	дорогой	ADV	_	Degree=Cmp	5	advmod	_	_
+7	их	они	DET	_	_	9	det	_	_
+8	собственной	собственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = fpr0-7
+# text = Очень важно сохранить честь, ведь потеряв её однажды человек прослывет дурной славой.
+1	Очень	очень	ADV	_	Degree=Pos	2	advmod	_	_
+2	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	0	ROOT	_	_
+3	сохранить	сохранить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	csubj	_	_
+4	честь	честь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	ведь	ведь	SCONJ	_	_	7	mark	_	_
+7	потеряв	потерять	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	3	advcl	_	_
+8	её	её	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=Third	7	obj	_	_
+9	однажды	однажды	ADV	_	Degree=Pos	7	advmod	_	_
+10	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	прослывет	прослыть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=Third|Tense=Fut|VerbForm=Fin|Voice=Act	7	obj	_	_
+12	дурной	дурной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	славой	слава	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	iobj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = fpr0-8
+# text = Человека, у которого есть честь и у которого её нет, отличают их поступки.
+1	Человека	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	у	у	ADP	_	_	4	case	_	_
+4	которого	которого	PRON	_	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+5	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+6	честь	честь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+7	и	и	CCONJ	_	_	9	advmod	_	_
+8	у	у	ADP	_	_	9	case	_	_
+9	которого	которого	PRON	_	Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+10	её	её	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+11	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	1	punct	_	_
+13	отличают	отличать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+14	их	они	DET	_	_	15	det	_	_
+15	поступки	поступок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = fpr0-9
+# text = Во многих произведениях русской художественной литературы главные герои стоят перед тяжелым выбором, от которого будет зависить их честь и даже жизнь.
+1	Во	в	ADP	_	_	3	case	_	_
+2	многих	многих	NUM	_	Case=Loc	3	amod	_	_
+3	произведениях	произведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	obl	_	_
+4	русской	русский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+5	художественной	художественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	литературы	литература	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	главные	главный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	герои	герой	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	стоят	стоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+10	перед	перед	ADP	_	_	12	case	_	_
+11	тяжелым	тяжёлый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	выбором	выбор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	от	от	ADP	_	_	15	case	_	_
+15	которого	которого	PRON	_	Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+16	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
+17	зависить	зависить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	acl:relcl	_	_
+18	их	они	DET	_	_	19	det	_	_
+19	честь	честь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+20	и	и	CCONJ	_	_	22	cc	_	_
+21	даже	даже	PART	_	_	22	advmod	_	_
+22	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = fpr0-10
+# text = Так, в произведении Александра Сергеевича Пушкина "Капитанская дочка" мы видим пример человека чести в лице главного героя Петра Гринёва.
+1	Так	так	ADV	_	Degree=Pos	13	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	произведении	произведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+5	Александра	александр	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	NER=B-PER
+6	Сергеевича	сергеевич	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	flat:name	_	NER=I-PER
+7	Пушкина	пушкин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	flat:name	_	NER=I-PER
+8	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+9	Капитанская	капитанский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	дочка	дочка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=First	13	nsubj	_	_
+13	видим	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+14	пример	пример	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	чести	честь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	лице	лицо	NOUN	_	Animacy=Anim|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	_
+19	главного	главный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	героя	герой	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	Петра	пётр	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	appos	_	NER=B-PER
+22	Гринёва	гринёв	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	flat:name	_	SpaceAfter=No|NER=I-PER
+23	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = fpr0-11
+# text = Отец Петра говорил своему сыну: "береги честь смолоду".
+1	Отец	отец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Петра	пётр	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	NER=B-PER
+3	говорил	говорить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	своему	свой	DET	_	Case=Dat|Gender=Masc|Number=Sing	5	det	_	_
+5	сыну	сын	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	8	punct	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	береги	беречь	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=Second|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+9	честь	честь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	appos	_	_
+10	смолоду	смолоду	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	iobj	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = fpr0-12
+# text = Эти слова крепко закрепились в сознании Гринёва, и он следовал им как закону.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	det	_	_
+2	слова	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+3	крепко	крепко	ADV	_	Degree=Pos	4	advmod	_	_
+4	закрепились	закрепиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	сознании	сознание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+7	Гринёва	гринёв	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|NER=B-LOC
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=Third	11	nsubj	_	_
+11	следовал	следовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+12	им	им	PRON	_	Case=Dat|Number=Plur|Person=Third	11	iobj	_	_
+13	как	как	SCONJ	_	_	14	case	_	_
+14	закону	закон	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = fpr0-13
+# text = Главный герой, как и все люди совершал в своей жизни ошибки.
+1	Главный	главный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	герой	герой	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	8	punct	_	_
+4	как	как	SCONJ	_	_	8	mark	_	_
+5	и	и	PART	_	_	6	advmod	_	_
+6	все	весь	DET	_	Case=Nom|Number=Plur	7	det	_	_
+7	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	совершал	совершать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	своей	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing	11	det	_	_
+11	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+12	ошибки	ошибка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = fpr0-14
+# text = Это касается случая с карточным долгом, когда Петр был вынужден отдать деньги, переданные ему отцом.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	касается	касаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+3	случая	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obj	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	карточным	карточный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	долгом	долг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	когда	когда	SCONJ	_	_	11	mark	_	_
+9	Петр	пётр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	NER=B-PER
+10	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+11	вынужден	вынужденный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	2	advcl	_	_
+12	отдать	отдать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	деньги	деньга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	переданные	передать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	_
+16	ему	ему	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=Third	15	iobj	_	_
+17	отцом	отец	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obl:agent	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = fpr0-15
+# text = Возможно этот поступок можно назвать бесчестным, но позже Пётр доказал, что у него есть честь.
+1	Возможно	Возможно	ADV	_	Degree=Pos	4	advmod	_	_
+2	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+3	поступок	поступок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	ROOT	_	_
+5	назвать	назвать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	csubj	_	_
+6	бесчестным	бесчестный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	но	но	CCONJ	_	_	11	cc	_	_
+9	позже	поздний	ADV	_	Degree=Cmp	11	advmod	_	_
+10	Пётр	пётр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	NER=B-PER
+11	доказал	доказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	что	что	SCONJ	_	_	16	mark	_	_
+14	у	у	ADP	_	_	15	case	_	_
+15	него	него	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=Third	16	obl	_	_
+16	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	_
+17	честь	честь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = fpr0-16
+# text = Во время осады Белогорской крепости всех, кто защищал её от бунтовщиков, повели присягать Пугачову.
+1	Во	в	ADP	_	_	3	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	осады	осада	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+4	Белогорской	белогорский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	крепости	крепость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	всех	всех	PRON	_	Animacy=Anim|Case=Acc|Number=Plur	3	det	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	кто	кто	PRON	_	Case=Nom	9	nsubj	_	_
+9	защищал	защищать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	её	её	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	бунтовщиков	бунтовщик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	3	punct	_	_
+14	повели	повести	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+15	присягать	присягать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	Пугачову	пугачову	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No|NER=B-PER
+17	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = fpr0-17
+# text = Те же, кто отказались присягнуть захватчику были убиты.
+1	Те	тот	DET	_	Case=Nom|Number=Plur	9	nsubj:pass	_	_
+2	же	же	PART	_	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	кто	кто	PRON	_	Case=Nom	5	nsubj	_	_
+5	отказались	отказаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	1	acl:relcl	_	_
+6	присягнуть	присягнуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	захватчику	захватчик	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	iobj	_	_
+8	были	были	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	убиты	убить	VERB	_	Aspect=Perf|Number=Plur|StyleVariant=Short|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = fpr0-18
+# text = Петру Гуринёву грозила смерть, но он тоже отказал Пугачову, сказав, что он уже присягнул на службу Императрице и не может нарушить присяги.
+1	Петру	пётр	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	NER=B-PER
+2	Гуринёву	гуринёву	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	appos	_	NER=I-PER
+3	грозила	грозить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	смерть	смерть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	но	но	CCONJ	_	_	9	cc	_	_
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=Third	9	nsubj	_	_
+8	тоже	тоже	ADV	_	Degree=Pos	9	advmod	_	_
+9	отказал	отказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+10	Пугачову	пугачову	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	iobj	_	SpaceAfter=No|NER=B-PER
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	сказав	сказать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	9	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	что	что	SCONJ	_	_	17	mark	_	_
+15	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=Third	17	nsubj	_	_
+16	уже	уже	ADV	_	Degree=Pos	17	advmod	_	_
+17	присягнул	присягнуть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	ccomp	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	службу	служба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+20	Императрице	императрице	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	17	iobj	_	NER=B-PER
+21	и	и	CCONJ	_	_	23	cc	_	_
+22	не	не	PART	_	Polarity=Neg	23	advmod	_	_
+23	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
+24	нарушить	нарушить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+25	присяги	присяга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = fpr0-19
+# text = Этим поступком Гринёв проявил себя как патриот своей страны и сохранил честь военнослужащего.
+1	Этим	этот	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	det	_	_
+2	поступком	поступок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+3	Гринёв	гринёв	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	NER=B-PER
+4	проявил	проявить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+5	себя	себя	PRON	_	Case=Acc	4	obj	_	_
+6	как	как	SCONJ	_	_	7	case	_	_
+7	патриот	патриот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
+8	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	9	det	_	_
+9	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	сохранил	сохранить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+12	честь	честь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	военнослужащего	военнослужащий	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = fpr0-20
+# text = В отличие от Гринева Швабрин опозорил свою честь офицера, трусливо примкнув к захватчику.
+1	В	в	ADP	_	_	4	case	_	_
+2	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	от	от	ADP	_	_	1	fixed	_	_
+4	Гринева	гринёв	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	NER=B-PER
+5	Швабрин	швабрин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	NER=B-PER
+6	опозорил	опозорить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+7	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	8	det	_	_
+8	честь	честь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	офицера	офицер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	трусливо	трусливо	ADV	_	Degree=Pos	12	advmod	_	_
+12	примкнув	примкнуть	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	6	advcl	_	_
+13	к	к	ADP	_	_	14	case	_	_
+14	захватчику	захватчик	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = fpr0-21
+# text = Швабрин является антиподом Гринёва.
+1	Швабрин	швабрин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	NER=B-PER
+2	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+3	антиподом	антипод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	xcomp	_	_
+4	Гринёва	гринёва	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|NER=B-LOC
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = fpr0-22
+# text = Если у Швабрина нет чести, то в отличие от него у Гринёва она есть.
+1	Если	если	SCONJ	_	_	4	mark	_	_
+2	у	у	ADP	_	_	3	case	_	_
+3	Швабрина	швабрина	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	NER=B-PER
+4	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	_
+5	чести	честь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	то	то	SCONJ	_	_	15	mark	_	_
+8	в	в	ADP	_	_	11	case	_	_
+9	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	fixed	_	_
+10	от	от	ADP	_	_	8	fixed	_	_
+11	него	него	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=Third	15	obl	_	_
+12	у	у	ADP	_	_	13	case	_	_
+13	Гринёва	гринёв	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	NER=B-PER
+14	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=Third	15	nsubj	_	_
+15	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = fpr0-23
+# text = Пётр доказал это своим поступком, который можно назвать храбрым.
+1	Пётр	пётр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	доказал	доказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	своим	свой	DET	_	Case=Ins|Gender=Masc|Number=Sing	5	det	_	_
+5	поступком	поступок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	который	который	PRON	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	можно	можно	ADV	_	Degree=Pos	5	acl:relcl	_	_
+9	назвать	назвать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	csubj	_	_
+10	храбрым	храбрый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = fpr0-24
+# text = Таким образом, человек должен хранить свою честь на протяжении всей своей жизни, начиная с молодости и заканчивая старостью.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	det	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	должен	должный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|StyleVariant=Short	0	ROOT	_	_
+6	хранить	хранить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	8	det	_	_
+8	честь	честь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+11	всей	весь	DET	_	Case=Gen|Gender=Fem|Number=Sing	13	det	_	_
+12	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	13	det	_	_
+13	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	начиная	начинать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	молодости	молодость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	заканчивая	заканчивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	15	conj	_	_
+20	старостью	старость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = fpr0-25
+# text = От этого зависит репутация человека, то как к нему будут относиться окружающие.
+1	От	от	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+3	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	репутация	репутация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	12	punct	_	_
+7	то	то	SCONJ	_	_	12	mark	_	_
+8	как	как	SCONJ	_	_	12	mark	_	_
+9	к	к	ADP	_	_	10	case	_	_
+10	нему	нему	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=Third	12	obl	_	_
+11	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
+12	относиться	относиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	advcl	_	_
+13	окружающие	окружать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = fpr0-26
+# text = Чтобы сохранить свою честь, нужно следовать голосу своей совести и моральным принципам.
+1	Чтобы	чтобы	SCONJ	_	_	2	mark	_	_
+2	сохранить	сохранить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	advcl	_	_
+3	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	det	_	_
+4	честь	честь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	0	ROOT	_	_
+7	следовать	следовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	csubj	_	_
+8	голосу	голос	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	_
+9	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	10	det	_	_
+10	совести	совесть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	моральным	моральный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	13	amod	_	_
+13	принципам	принцип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = fpr0-27
+# text = В современном мире все чаще встает вопрос о влиянии общества на природу.
+1	В	в	ADP	_	_	3	case	_	_
+2	современном	современный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	все	все	PART	_	_	5	advmod	_	_
+5	чаще	чаще	ADV	_	Degree=Cmp	6	advmod	_	_
+6	встает	вставать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+7	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	влиянии	влияние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+10	общества	общество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	природу	природа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = fpr0-28
+# text = Однако не стоит забывать, что и сама природа воздействует на людей.
+1	Однако	однако	ADV	_	Degree=Pos	3	advmod	_	_
+2	не	не	PART	_	Polarity=Neg	3	advmod	_	_
+3	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	забывать	забывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	csubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	что	что	SCONJ	_	_	10	mark	_	_
+7	и	и	PART	_	_	8	advmod	_	_
+8	сама	сама	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	природа	природа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	воздействует	воздействовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = fpr0-29
+# text = Замечательный советский писатель Л. М. Леонов в своем произведении затрагивает проблему значения природы для человека.
+1	Замечательный	замечательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	советский	советский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	писатель	писатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+4	Л.	л.	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	NER=B-ORG
+5	М.	м.	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	NER=I-ORG
+6	Леонов	леонов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	NER=I-ORG
+7	в	в	ADP	_	_	9	case	_	_
+8	своем	свой	DET	_	Case=Loc|Gender=Neut|Number=Sing	9	det	_	_
+9	произведении	произведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+10	затрагивает	затрагивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+11	проблему	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	значения	значение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	природы	природа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = fpr0-30
+# text = Красота и многообразие объектов природного мира восхищает, вдохновляет, приносит наслаждение.
+1	Красота	красота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	многообразие	многообразие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	conj	_	_
+4	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	природного	природный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	восхищает	восхищать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	вдохновляет	вдохновлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	приносит	приносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+12	наслаждение	наслаждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = fpr0-31
+# text = Пейзажи западают нам в душу, становятся родными.
+1	Пейзажи	пейзаж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	западают	западать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+3	нам	нам	PRON	_	Case=Dat|Number=Plur|Person=First	2	iobj	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	душу	душа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	становятся	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+8	родными	родными	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = fpr0-32
+# text = С ними связывается столько воспоминаний.
+1	С	с	ADP	_	_	2	case	_	_
+2	ними	ними	PRON	_	Case=Ins|Number=Plur|Person=Third	3	obl	_	_
+3	связывается	связываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Pass	0	ROOT	_	_
+4	столько	столько	NUM	_	Case=Nom	5	nummod:gov	_	_
+5	воспоминаний	воспоминание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nsubj:pass	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = fpr0-33
+# text = Поэтому их исчезновение всегда задевает…
+1	Поэтому	поэтому	ADV	_	Degree=Pos	5	advmod	_	_
+2	их	они	DET	_	_	3	det	_	_
+3	исчезновение	исчезновение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	всегда	всегда	ADV	_	Degree=Pos	5	advmod	_	_
+5	задевает	задевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+6	…	…	PUNCT	_	_	5	punct	_	_
+
+# sent_id = fpr0-34
+# text = В прочитанном мною фрагменте мальчик Иван не смог сдерживать слез, видя, как срубают дерево, которое так много значило для него – напоминало о детстве.
+1	В	в	ADP	_	_	4	case	_	_
+2	прочитанном	прочитать	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+3	мною	мною	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	фрагменте	фрагмент	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+5	мальчик	мальчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	Иван	иван	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	NER=B-PER
+7	не	не	PART	_	Polarity=Neg	8	advmod	_	_
+8	смог	смочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+9	сдерживать	сдерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	слез	слеза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	видя	видеть	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	9	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	как	как	ADV	_	Degree=Pos	15	advmod	_	_
+15	срубают	срубать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	_
+16	дерево	дерево	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	которое	которое	PRON	_	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+19	так	так	ADV	_	Degree=Pos	20	advmod	_	_
+20	много	много	ADV	_	Degree=Pos	21	advmod	_	_
+21	значило	значило	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+22	для	для	ADP	_	_	23	case	_	_
+23	него	него	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=Third	21	obl	_	_
+24	–	–	PUNCT	_	_	25	punct	_	_
+25	напоминало	напоминать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+26	о	о	ADP	_	_	27	case	_	_
+27	детстве	детство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = fpr0-35
+# text = Это событие пробудило в нем ярость, и он выстрелил из рогатки в «гнилого барина» Кнышева.
+1	Это	это	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	det	_	_
+2	событие	событие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	пробудило	пробудить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	нем	нем	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=Third	3	obl	_	_
+6	ярость	ярость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=Third	10	nsubj	_	_
+10	выстрелил	выстрелить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+11	из	из	ADP	_	_	12	case	_	_
+12	рогатки	рогатка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+13	в	в	ADP	_	_	16	case	_	_
+14	«	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	гнилого	гнилой	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	барина	барин	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+17	»	"	PUNCT	_	_	16	punct	_	_
+18	Кнышева	кнышева	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|NER=B-PER
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = fpr0-36
+# text = Л. М. Леонов сочувствует горю своего персонажа.
+1	Л.	л.	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	М.	м.	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Леонов	леонов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	NER=B-PER
+4	сочувствует	сочувствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+5	горю	горю	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	iobj	_	_
+6	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	7	det	_	_
+7	персонажа	персонаж	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = fpr0-37
+# text = Автор считает, что «нет ничего медленней и томительней на земле, чем падение дерева, под чьей сенью посещали тебя смутные грёзы детства».
+1	Автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	считает	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	что	что	SCONJ	_	_	6	mark	_	_
+5	«	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+7	ничего	ничто	PRON	_	Case=Gen	6	nsubj	_	_
+8	медленней	медленный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	томительней	томительней	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	conj	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	земле	земля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	чем	чем	SCONJ	_	_	15	mark	_	_
+15	падение	падение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	obl	_	_
+16	дерева	дерево	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	под	под	ADP	_	_	20	case	_	_
+19	чьей	чей	DET	_	Case=Ins|Gender=Fem|Number=Sing	20	det	_	_
+20	сенью	сень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_
+21	посещали	посещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+22	тебя	тебя	PRON	_	Case=Acc|Number=Sing|Person=Second	21	obj	_	_
+23	смутные	смутный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	24	amod	_	_
+24	грёзы	грёза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	21	nsubj	_	_
+25	детства	детство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No
+26	»	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = fpr0-38
+# text = Я разделяю его точку зрения.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=First	2	nsubj	_	_
+2	разделяю	разделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+3	его	он	DET	_	_	4	det	_	_
+4	точку	точка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	compound	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = fpr0-39
+# text = Природа действительно может быть важной частью жизни человека, служить источником вдохновения, пробуждать в душе новые чувства и переживания.
+1	Природа	природа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	действительно	действительно	ADV	_	Degree=Pos	3	advmod	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	cop	_	_
+5	важной	важный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	xcomp	_	_
+7	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	служить	служить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+11	источником	источник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	xcomp	_	_
+12	вдохновения	вдохновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	пробуждать	пробуждать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	душе	душа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_
+17	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	чувства	чувство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	14	obj	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	переживания	переживание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = fpr0-40
+# text = У каждого русского поэта есть хотя бы одно произведение, посвященное природе родной страны.
+1	У	у	ADP	_	_	4	case	_	_
+2	каждого	каждый	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	det	_	_
+3	русского	русский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	поэта	поэт	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+5	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+6	хотя	хотя	PART	_	_	8	advmod	_	_
+7	бы	бы	PART	_	_	6	fixed	_	_
+8	одно	одно	NUM	_	Case=Nom|Gender=Neut|Number=Sing	9	nummod	_	_
+9	произведение	произведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	посвященное	посвятить	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	_
+12	природе	природа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	iobj	_	_
+13	родной	родный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = fpr0-41
+# text = Например, осень, любимая пора А. С. Пушкина, всегда была «музой» для поэта: «Унылая пора!
+1	Например	например	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	осень	осень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	любимая	любимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	пора	пора	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+7	А.	а.	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	С.	с.	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_
+9	Пушкина	пушкин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	всегда	всегда	ADV	_	Degree=Pos	14	advmod	_	_
+12	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
+13	«	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	музой	муза	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	ROOT	_	SpaceAfter=No
+15	»	"	PUNCT	_	_	14	punct	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	поэта	поэт	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	_	_	21	punct	_	_
+19	«	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+20	Унылая	унылый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	пора	пора	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	parataxis	_	SpaceAfter=No
+22	!	!	PUNCT	_	_	14	punct	_	_
+
+# sent_id = fpr0-42
+# text = Очей очарованье!», «Люблю я пышное природы увяданье».
+1	Очей	очей	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	очарованье	очарованье	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=Second|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	»	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	«	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Люблю	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=First|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=First	7	nsubj	_	_
+9	пышное	пышный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	природы	природа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+11	увяданье	увядание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	»	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = fpr0-43
+# text = Это лишь одни из множества строчек, посвященных красоте природы.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	лишь	лишь	PART	_	_	3	advmod	_	_
+3	одни	один	DET	_	Case=Nom|Degree=Pos|Number=Plur	0	ROOT	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	строчек	строчка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	посвященных	посвятить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+9	красоте	красота	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	iobj	_	_
+10	природы	природа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = fpr0-44
+# text = Еще один великий русский писатель - Л. Н. Толстой - в своем знаменитом романе «Война и мир» показал влияние природы на состояние души человека.
+1	Еще	ещё	ADV	_	Degree=Pos	2	advmod	_	_
+2	один	один	NUM	_	Case=Nom|Gender=Masc|Number=Sing	5	nummod	_	_
+3	великий	великий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	русский	русский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	писатель	писатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+6	-	-	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+7	Л.	л.	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+8	Н.	н.	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	nsubj	_	_
+9	Толстой	толстой	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+10	-	-	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	в	в	ADP	_	_	8	nmod	_	_
+12	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	14	det	_	_
+13	знаменитом	знаменитый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	романе	роман	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+15	«	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Война	война	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	appos	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	мир	мир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	»	"	PUNCT	_	_	16	punct	_	_
+20	показал	показать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+21	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+22	природы	природа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	nmod	_	_
+25	души	душа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = fpr0-45
+# text = Наташа Ростова восхищалась красотой ночи в Отрадном, увиденное ее окрыляло.
+1	Наташа	наташа	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	NER=B-PER
+2	Ростова	ростов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	NER=I-PER
+3	восхищалась	восхищаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+4	красотой	красота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+5	ночи	ночь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Отрадном	отрадный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|NER=B-LOC
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	увиденное	увидеть	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	nsubj	_	_
+10	ее	ее	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=Third	11	obj	_	_
+11	окрыляло	окрылять	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = fpr0-46
+# text = Андрей Болконский, там же, увидел старый дуб.
+1	Андрей	андрей	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	NER=B-PER
+2	Болконский	болконский	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No|NER=I-PER
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	там	там	ADV	_	Degree=Pos	7	advmod	_	_
+5	же	же	PART	_	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	увидел	увидеть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+8	старый	старый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	дуб	дуб	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = fpr0-47
+# text = Красота и величие могучего дерева вызвали изменения в душе героя.
+1	Красота	красота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	величие	величие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	conj	_	_
+4	могучего	могучий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	дерева	дерево	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	вызвали	вызвать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+7	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	душе	душа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	героя	герой	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = fpr0-48
+# text = Природа – это высший дар, который есть у человечества.
+1	Природа	природа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	–	–	PUNCT	_	_	1	punct	_	_
+3	это	это	PART	_	_	5	expl	_	_
+4	высший	высокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	дар	дар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	который	который	PRON	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	есть	есть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=Third|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	у	у	ADP	_	_	10	case	_	_
+10	человечества	человечество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = fpr0-49
+# text = Современное общество должно приложить все усилия, чтобы сохранить столь важную составляющую нашей жизни.
+1	Современное	современный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	общество	общество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	должно	должный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|StyleVariant=Short	0	ROOT	_	_
+4	приложить	приложить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	все	весь	DET	_	Animacy=Inan|Case=Acc|Number=Plur	6	det	_	_
+6	усилия	усилие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	чтобы	чтобы	SCONJ	_	_	9	mark	_	_
+9	сохранить	сохранить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	advcl	_	_
+10	столь	столь	ADV	_	Degree=Pos	11	advmod	_	_
+11	важную	важный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	составляющую	составляющую	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	14	det	_	_
+14	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
