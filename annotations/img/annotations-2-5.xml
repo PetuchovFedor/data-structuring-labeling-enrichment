@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>4730121</id>
+      <size>4</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-11-15 14:06:53.818416+00:00</created>
+      <updated>2026-11-15 14:40:43.635655+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>3</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>4726765</id>
+          <start>0</start>
+          <stop>3</stop>
+          <url>https://app.cvat.ai/api/jobs/4730121/dataset/export/api/jobs/4730121</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>petuchov.fedya.a.eto.ya@gmail.com</username>
+        <email>petuchov.fedya.a.eto.ya@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Line</name>
+          <color>#c1409f</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>AuthorId</name>
+              <mutable>False</mutable>
+              <input_type>number</input_type>
+              <default_value>0</default_value>
+              <values>0
+100
+1</values>
+            </attribute>
+            <attribute>
+              <name>Slant</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>left</default_value>
+              <values>left
+right
+mixed
+vertical</values>
+            </attribute>
+            <attribute>
+              <name>LetterSize</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>small</default_value>
+              <values>small
+medium
+large</values>
+            </attribute>
+            <attribute>
+              <name>Connectivity</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>high</default_value>
+              <values>high
+medium
+low</values>
+            </attribute>
+            <attribute>
+              <name>Pressure</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>strong</default_value>
+              <values>strong
+medium
+weak</values>
+            </attribute>
+            <attribute>
+              <name>Spacing</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>narrow</default_value>
+              <values>narrow
+medium
+wide</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-11-15 14:40:48.252166+00:00</dumped>
+  </meta>
+  <image id="0" name="2.JPG" width="2285" height="2879">
+    <box label="Line" source="manual" occluded="0" xtl="349.05" ytl="6.79" xbr="2093.90" ybr="208.12" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">mixed</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">medium</attribute>
+      <attribute name="Pressure">medium</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="338.99" ytl="181.28" xbr="2238.19" ybr="302.08" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">medium</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="328.92" ytl="292.01" xbr="2285.00" ybr="412.81" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">medium</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="345.70" ytl="389.32" xbr="2201.28" ybr="530.25" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">mixed</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">low</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="308.79" ytl="520.18" xbr="2285.00" ybr="647.69" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="271.88" ytl="610.78" xbr="2278.45" ybr="778.55" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="312.14" ytl="751.71" xbr="2120.75" ybr="865.80" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">medium</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="335.63" ytl="879.22" xbr="2241.54" ybr="1013.44" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="335.63" ytl="989.95" xbr="2120.75" ybr="1107.39" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="355.76" ytl="1120.81" xbr="2241.54" ybr="1221.48" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="335.63" ytl="1224.83" xbr="2251.61" ybr="1332.21" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="338.99" ytl="1342.27" xbr="2271.74" ybr="1442.94" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">medium</attribute>
+      <attribute name="Spacing">narrow</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="362.48" ytl="1439.58" xbr="2234.83" ybr="1563.74" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">medium</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="325.56" ytl="1570.45" xbr="2268.39" ybr="1701.31" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="332.28" ytl="1674.47" xbr="2258.32" ybr="1815.40" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="332.28" ytl="1805.33" xbr="2281.81" ybr="1895.93" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="335.63" ytl="1909.35" xbr="2285.00" ybr="2023.44" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="335.63" ytl="2033.50" xbr="2278.45" ybr="2134.17" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">small</attribute>
+      <attribute name="Connectivity">medium</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="335.63" ytl="2144.23" xbr="2134.17" ybr="2251.61" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">medium</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="322.21" ytl="2265.03" xbr="2285.00" ybr="2379.12" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="322.21" ytl="2358.98" xbr="2285.00" ybr="2499.91" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="322.21" ytl="2476.43" xbr="2285.00" ybr="2624.07" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="335.63" ytl="2593.87" xbr="2174.43" ybr="2751.58" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+  </image>
+  <image id="1" name="3.JPG" width="2143" height="2682">
+    <box label="Line" source="manual" occluded="0" xtl="0.90" ytl="53.10" xbr="1898.31" ybr="196.89" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="4.03" ytl="200.02" xbr="1754.51" ybr="293.79" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="0.00" ytl="293.79" xbr="1860.79" ybr="406.33" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">small</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">narrow</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="4.03" ytl="393.82" xbr="1882.68" ybr="518.86" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="10.28" ytl="518.86" xbr="1892.05" ybr="628.26" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="10.28" ytl="609.51" xbr="1704.50" ybr="737.67" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">small</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="22.78" ytl="743.92" xbr="1835.79" ybr="840.82" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">small</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="4.03" ytl="834.57" xbr="1782.65" ybr="959.61" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">medium</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="0.00" ytl="956.48" xbr="1860.79" ybr="1062.76" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">mixed</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="0.00" ytl="1062.76" xbr="1857.67" ybr="1156.54" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="16.53" ytl="1162.79" xbr="1898.31" ybr="1303.45" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="19.65" ytl="1275.32" xbr="1666.99" ybr="1406.61" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="19.65" ytl="1403.48" xbr="1776.40" ybr="1475.37" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="13.40" ytl="1475.37" xbr="1666.99" ybr="1587.91" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="35.28" ytl="1594.16" xbr="1895.18" ybr="1716.07" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="7.15" ytl="1694.19" xbr="1832.66" ybr="1797.34" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="7.15" ytl="1794.21" xbr="1682.62" ybr="1928.63" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="16.53" ytl="1922.37" xbr="1813.91" ybr="2028.65" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="44.66" ytl="2025.53" xbr="1723.26" ybr="2122.43" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="41.54" ytl="2119.30" xbr="1707.63" ybr="2253.72" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="32.16" ytl="2231.84" xbr="1854.54" ybr="2363.12" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="16.53" ytl="2344.37" xbr="1782.65" ybr="2456.90" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">narrow</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="7.15" ytl="2438.14" xbr="1845.17" ybr="2581.93" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">small</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">medium</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+  </image>
+  <image id="2" name="4.png" width="2347" height="2953">
+    <box label="Line" source="manual" occluded="0" xtl="323.33" ytl="25.97" xbr="2333.30" ybr="191.17" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="316.45" ytl="184.29" xbr="2302.33" ybr="346.05" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="306.13" ytl="311.63" xbr="2347.00" ybr="438.98" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="278.59" ytl="428.65" xbr="2347.00" ybr="559.44" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="319.89" ytl="552.55" xbr="2223.17" ybr="673.01" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="326.78" ytl="652.36" xbr="2281.68" ybr="786.59" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="306.13" ytl="772.82" xbr="2230.05" ybr="924.26" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="292.36" ytl="903.61" xbr="2257.58" ybr="1048.16" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="309.57" ytl="1010.30" xbr="2292.00" ybr="1158.30" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="323.33" ytl="1127.32" xbr="2347.00" ybr="1271.87" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="306.13" ytl="1237.46" xbr="2340.18" ybr="1385.45" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="316.45" ytl="1388.89" xbr="2329.86" ybr="1495.59" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="333.66" ytl="1485.26" xbr="2343.63" ybr="1629.81" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="316.45" ytl="1595.40" xbr="2329.86" ybr="1743.39" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="309.57" ytl="1722.74" xbr="2343.63" ybr="1870.73" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="299.24" ytl="1846.64" xbr="2161.22" ybr="1973.99" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="316.45" ytl="1932.68" xbr="2329.86" ybr="2087.56" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="316.45" ytl="2066.91" xbr="2274.79" ybr="2214.91" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="340.54" ytl="2197.70" xbr="2316.09" ybr="2311.27" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="302.68" ytl="2311.27" xbr="2326.42" ybr="2462.71" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="313.01" ytl="2442.06" xbr="2254.14" ybr="2583.17" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="337.10" ytl="2555.64" xbr="2326.42" ybr="2676.10" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="337.10" ytl="2658.89" xbr="2274.79" ybr="2789.67" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+  </image>
+  <image id="3" name="5.JPG" width="2189" height="2737">
+    <box label="Line" source="manual" occluded="0" xtl="0.00" ytl="74.79" xbr="1809.88" ybr="207.66" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="5.03" ytl="196.59" xbr="1927.99" ybr="333.15" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="0.00" ytl="325.77" xbr="1898.46" ybr="440.19" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="0.00" ytl="440.19" xbr="1894.77" ybr="554.61" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="0.00" ytl="565.68" xbr="1975.97" ybr="657.95" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="8.72" ytl="646.88" xbr="1961.21" ybr="753.91" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="23.48" ytl="750.22" xbr="1865.24" ybr="883.10" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="23.48" ytl="883.10" xbr="1736.06" ybr="1004.90" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="1.34" ytl="1001.20" xbr="1913.23" ybr="1104.55" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="8.72" ytl="1119.31" xbr="1931.68" ybr="1211.59" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="0.00" ytl="1211.59" xbr="1772.97" ybr="1322.31" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="8.72" ytl="1326.00" xbr="1891.08" ybr="1433.04" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="19.79" ytl="1421.97" xbr="1898.46" ybr="1532.69" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="0.00" ytl="1532.69" xbr="1920.61" ybr="1658.19" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">medium</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">medium</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="0.00" ytl="1661.88" xbr="1887.39" ybr="1735.69" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="49.32" ytl="1720.93" xbr="1942.75" ybr="1868.57" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="0.00" ytl="1853.80" xbr="1772.97" ybr="1971.91" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">small</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="0.00" ytl="1964.53" xbr="1898.46" ybr="2090.02" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="5.03" ytl="2075.26" xbr="1839.41" ybr="2193.37" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">small</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="19.79" ytl="2167.53" xbr="1846.79" ybr="2315.17" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="0.00" ytl="2281.95" xbr="1868.94" ybr="2400.06" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="1.34" ytl="2396.37" xbr="1765.59" ybr="2510.78" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+    <box label="Line" source="manual" occluded="0" xtl="8.72" ytl="2510.78" xbr="1902.15" ybr="2606.75" z_order="0">
+      <attribute name="AuthorId">0</attribute>
+      <attribute name="Slant">right</attribute>
+      <attribute name="LetterSize">large</attribute>
+      <attribute name="Connectivity">high</attribute>
+      <attribute name="Pressure">strong</attribute>
+      <attribute name="Spacing">wide</attribute>
+    </box>
+  </image>
+</annotations>
